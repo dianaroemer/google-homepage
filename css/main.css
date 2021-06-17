@@ -1,7 +1,86 @@
 
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
 html, body, button {
     font-size: 14px;
        font-family: 'Roboto', arial,sans-serif;
+}
+
+
+/* --------------------- Styling for Header -----------------------*/
+
+
+.docheader {
+    display: grid;
+    grid-template-columns: 80px 60px auto 60px 60px 54px 54px ;
+    grid-template-rows: 60px; 
+    padding: 6px 6px 6px 6px;
+    height: 60px;
+}
+
+
+.aboutLink {
+  /*  background:lightskyblue;*/
+    margin-left:15px;
+    padding: 13px 5px 5px 5px;
+}
+.storeLink {
+    /*background:lightcoral; */
+    padding: 13px 5px 5px 5px;
+
+}
+.gmailLink {
+    /*background:lightcyan;*/
+    font-size:13px;
+    padding: 13px 5px 5px 5px;
+
+}
+.imagesLink {
+    /*background:lightgoldenrodyellow;*/
+    font-size:13px;
+    padding: 13px 5px 5px 5px;
+}
+
+
+.appsLink {
+   /* background:lightseagreen; */
+    height: 30px;
+    width: 30px;
+    padding: 8px 8px 8px 8px;
+}
+
+.profileLink {
+   /* background:lightgreen;*/
+    margin-right: 15px;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+}
+
+.apps-image {
+    height: 32px;
+    width: 32px;
+}
+
+.profile-image {
+    height: 32px;
+    width: 32px;
+}
+
+.apps-image:hover {
+    background-color:lightgray;
+    border-radius:50%;
+    }
+
+.profile-image:hover {
+    background-color:lightgray;
+    border-radius:50%;
+}
+
+/* --------------------- Styling for Body -----------------------*/
+
+.google-logo {
+    height: 92px;
+    weight: 272px; 
+
 }
