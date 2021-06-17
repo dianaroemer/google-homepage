@@ -7,9 +7,7 @@ html, body, button {
        font-family: 'Roboto', arial,sans-serif;
 }
 
-
 /* --------------------- Styling for Header -----------------------*/
-
 
 .docheader {
     display: grid;
@@ -21,37 +19,28 @@ html, body, button {
 
 
 .aboutLink {
-  /*  background:lightskyblue;*/
     margin-left:15px;
     padding: 13px 5px 5px 5px;
 }
 .storeLink {
-    /*background:lightcoral; */
     padding: 13px 5px 5px 5px;
 
 }
-.gmailLink {
-    /*background:lightcyan;*/
+.gmailLink, .imagesLink {
     font-size:13px;
     padding: 13px 5px 5px 5px;
 
 }
-.imagesLink {
-    /*background:lightgoldenrodyellow;*/
-    font-size:13px;
-    padding: 13px 5px 5px 5px;
-}
+
 
 
 .appsLink {
-   /* background:lightseagreen; */
     height: 30px;
     width: 30px;
     padding: 8px 8px 8px 8px;
 }
 
 .profileLink {
-   /* background:lightgreen;*/
     margin-right: 15px;
     padding: 8px 8px 8px 8px;
     vertical-align: middle;
@@ -82,5 +71,18 @@ html, body, button {
 .google-logo {
     height: 92px;
     weight: 272px; 
-
+    object-fit: contain;
+    object-position: bottom;
+    margin-top: auto;
 }
+
+.center-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    }
+
+/* --------------------- Styling for Search Bar -----------------------*/
