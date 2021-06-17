@@ -17,7 +17,6 @@ html, body, button {
     height: 60px;
 }
 
-
 .aboutLink {
     margin-left:15px;
     padding: 13px 5px 5px 5px;
@@ -31,8 +30,6 @@ html, body, button {
     padding: 13px 5px 5px 5px;
 
 }
-
-
 
 .appsLink {
     height: 30px;
@@ -86,3 +83,42 @@ html, body, button {
     }
 
 /* --------------------- Styling for Search Bar -----------------------*/
+
+.form-buttons {
+
+    padding: 26px 20px 20px 20px;
+    display: block;
+    max-height: 160px;
+    max-width: 584px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-bar {
+    width: 564px;
+}
+
+.search-button {
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    left: 135px
+}
+
+.lucky-button {
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    left: 115px;
+}
+
+.search-image {
+    position: relative;
+    bottom: 84px;
+    left: 3px;
+}
+
+.mic-image {
+    position: relative;
+    bottom: 84px;    
+    left: 511;
+}
