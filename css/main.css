@@ -122,3 +122,73 @@ html, body, button {
     bottom: 84px;    
     left: 511;
 }
+
+
+.carbonBlock {
+    background-color:lightgray;
+    display:flex; 
+    justify-content: center;
+    position: relative;
+    top: 29%;
+    align-self: center;
+    padding: 15px 15px 15px 15px;
+/*
+    position: relative;
+    height: 
+    bottom: 0px;
+    */
+} 
+
+
+.footer {
+    background-color:lightgray;
+    display:flex;
+    height: 52px;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 29%;
+    margin-bottom:15px;
+    
+}
+
+.bottomEmpty1 {
+    display:flex;
+    width: 10%;
+}
+
+.bottomLeftLinks {
+   display: flex;
+    order: 0;
+    margin-bottom: 15px;
+}
+
+.advertisingLink{ 
+    padding: 0 5 0 5;
+}
+
+.businessLink {
+    padding: 0 5 0 5;
+}
+
+.howLink {
+    padding: 0 5 0 5;
+}
+
+.bottomRightLinks {
+    display: flex; 
+    order: 2;
+    margin-bottom: 15px;
+}
+
+.privacyLink {
+    padding: 0 5 0 5;
+}
+
+.termsLink {
+    padding: 0 5 0 5;
+}
+
+.settingsLink {
+    padding: 0 5 0 5;
+}
